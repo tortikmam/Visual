@@ -20,6 +20,11 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
+    }
+
+    override fun onResume() {
+        super.onResume()
+
         var bKukulator: Button = findViewById(R.id.button_kukulator)
         bKukulator.setOnClickListener({
             val randomIntent = Intent(this, KukulatorActivity::class.java)

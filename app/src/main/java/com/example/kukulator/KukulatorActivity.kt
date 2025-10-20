@@ -19,6 +19,11 @@ class KukulatorActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+    }
+
+    override fun onResume() {
+        super.onResume()
+
         var TextV: TextView = findViewById(R.id.textView2)
         TextV.text = "0"
 
