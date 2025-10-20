@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.kukulator.app-mergeDebugResources-33:/values-large-v4/values-large-v4.xml",
+            "outputFile": "com.example.kukulator.app-mergeDebugResources-46:/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Vladimir\\.gradle\\caches\\8.13\\transforms\\c44c5e9b00e7cb770ebac8dfe17166cf\\transformed\\material-1.13.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\Vladimir\\.gradle\\caches\\8.13\\transforms\\9b7df1f21a431463ca3f35ae12a9c2ba\\transformed\\material-1.13.0\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Vladimir\\.gradle\\caches\\8.13\\transforms\\74e2cf8db6b03b348cce7b0ce514ee13\\transformed\\appcompat-1.7.1\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\Vladimir\\.gradle\\caches\\8.13\\transforms\\eb995a6a04b078ed80d48089d0538e19\\transformed\\appcompat-1.7.1\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

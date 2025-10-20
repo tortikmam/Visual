@@ -12,6 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Kukulator">
         <activity
+            android:name=".MediaPlayerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KukulatorActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Kukulator" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

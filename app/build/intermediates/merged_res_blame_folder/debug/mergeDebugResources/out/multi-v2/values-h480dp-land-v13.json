@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.kukulator.app-mergeDebugResources-33:/values-h480dp-land-v13/values-h480dp-land-v13.xml",
+            "outputFile": "com.example.kukulator.app-mergeDebugResources-46:/values-h480dp-land-v13/values-h480dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Vladimir\\.gradle\\caches\\8.13\\transforms\\c44c5e9b00e7cb770ebac8dfe17166cf\\transformed\\material-1.13.0\\res\\values-h480dp-land-v13\\values-h480dp-land-v13.xml",
+                    "source": "C:\\Users\\Vladimir\\.gradle\\caches\\8.13\\transforms\\9b7df1f21a431463ca3f35ae12a9c2ba\\transformed\\material-1.13.0\\res\\values-h480dp-land-v13\\values-h480dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

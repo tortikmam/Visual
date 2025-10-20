@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.kukulator.app-mergeDebugResources-33:/values-h720dp-v13/values-h720dp-v13.xml",
+            "outputFile": "com.example.kukulator.app-mergeDebugResources-46:/values-h720dp-v13/values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Vladimir\\.gradle\\caches\\8.13\\transforms\\74e2cf8db6b03b348cce7b0ce514ee13\\transformed\\appcompat-1.7.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "source": "C:\\Users\\Vladimir\\.gradle\\caches\\8.13\\transforms\\eb995a6a04b078ed80d48089d0538e19\\transformed\\appcompat-1.7.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
