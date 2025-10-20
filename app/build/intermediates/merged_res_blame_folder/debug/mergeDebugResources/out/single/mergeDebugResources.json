@@ -4,8 +4,8 @@
         "source": "C:\\Users\\Vladimir\\.gradle\\daemon\\8.13\\com.example.kukulator.app-main-50:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.kukulator.app-debug-48:/layout_activity_media_player.xml.flat",
-        "source": "com.example.kukulator.app-main-50:/layout/activity_media_player.xml"
+        "merged": "C:\\Users\\Vladimir\\.gradle\\daemon\\8.13\\com.example.kukulator.app-debug-48:\\layout_activity_media_player.xml.flat",
+        "source": "C:\\Users\\Vladimir\\.gradle\\daemon\\8.13\\com.example.kukulator.app-main-50:\\layout\\activity_media_player.xml"
     },
     {
         "merged": "C:\\Users\\Vladimir\\.gradle\\daemon\\8.13\\com.example.kukulator.app-debug-48:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
@@ -36,6 +36,10 @@
         "source": "C:\\Users\\Vladimir\\.gradle\\daemon\\8.13\\com.example.kukulator.app-main-50:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "com.example.kukulator.app-debug-48:/layout_activity_kukulator.xml.flat",
+        "source": "com.example.kukulator.app-main-50:/layout/activity_kukulator.xml"
+    },
+    {
         "merged": "C:\\Users\\Vladimir\\.gradle\\daemon\\8.13\\com.example.kukulator.app-debug-48:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Vladimir\\.gradle\\daemon\\8.13\\com.example.kukulator.app-main-50:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
@@ -58,10 +62,6 @@
     {
         "merged": "C:\\Users\\Vladimir\\.gradle\\daemon\\8.13\\com.example.kukulator.app-debug-48:\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Vladimir\\.gradle\\daemon\\8.13\\com.example.kukulator.app-main-50:\\mipmap-xhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.kukulator.app-debug-48:/layout_activity_main.xml.flat",
-        "source": "com.example.kukulator.app-main-50:/layout/activity_main.xml"
     },
     {
         "merged": "C:\\Users\\Vladimir\\.gradle\\daemon\\8.13\\com.example.kukulator.app-debug-48:\\mipmap-mdpi_ic_launcher.webp.flat",

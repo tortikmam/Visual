@@ -1,5 +1,6 @@
 package com.example.kukulator
 
+import android.graphics.Color
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
@@ -31,6 +32,7 @@ class KukulatorActivity : AppCompatActivity() {
         bZero.setOnClickListener({
             if (TextV.text == "0" || TextV.text == "ERROR") {
                 TextV.setText("0")
+                bZero.setTextColor(Color.BLACK)
             } else {
                 TextV.setText(TextV.text.toString() + "0")
             }
