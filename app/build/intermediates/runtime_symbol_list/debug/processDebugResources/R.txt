@@ -3814,6 +3814,7 @@ int id button_clear 0x7f08006f
 int id button_divide 0x7f080070
 int id button_eight 0x7f080071
 int id button_equals 0x7f080072
+int id button_fast_forward 0x7f08022b
 int id button_five 0x7f080073
 int id button_four 0x7f080074
 int id button_kukulator 0x7f080075
@@ -3822,7 +3823,9 @@ int id button_minus 0x7f080077
 int id button_multiply 0x7f080078
 int id button_nine 0x7f080079
 int id button_one 0x7f08007a
+int id button_pause_play 0x7f08022c
 int id button_plus 0x7f08007b
+int id button_rewind 0x7f08022d
 int id button_seven 0x7f08007c
 int id button_six 0x7f08007d
 int id button_three 0x7f08007e
@@ -3973,6 +3976,7 @@ int id line3 0x7f08010e
 int id linear 0x7f08010f
 int id listMode 0x7f080110
 int id list_item 0x7f080111
+int id list_track 0x7f080230
 int id locale 0x7f080112
 int id ltr 0x7f080113
 int id m3_side_sheet 0x7f080114
@@ -4097,6 +4101,7 @@ int id pin 0x7f08018a
 int id position 0x7f08018b
 int id postLayout 0x7f08018c
 int id pressed 0x7f08018d
+int id progress_bar 0x7f08022e
 int id progress_circular 0x7f08018e
 int id progress_horizontal 0x7f08018f
 int id radio 0x7f080190
@@ -4203,6 +4208,7 @@ int id textView2 0x7f0801f4
 int id text_input_end_icon 0x7f0801f5
 int id text_input_error_icon 0x7f0801f6
 int id text_input_start_icon 0x7f0801f7
+int id text_time 0x7f08022f
 int id textinput_counter 0x7f0801f8
 int id textinput_error 0x7f0801f9
 int id textinput_helper_text 0x7f0801fa

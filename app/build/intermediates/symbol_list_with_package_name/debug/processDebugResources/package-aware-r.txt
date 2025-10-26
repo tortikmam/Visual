@@ -3815,6 +3815,7 @@ id button_clear
 id button_divide
 id button_eight
 id button_equals
+id button_fast_forward
 id button_five
 id button_four
 id button_kukulator
@@ -3823,7 +3824,9 @@ id button_minus
 id button_multiply
 id button_nine
 id button_one
+id button_pause_play
 id button_plus
+id button_rewind
 id button_seven
 id button_six
 id button_three
@@ -3974,6 +3977,7 @@ id line3
 id linear
 id listMode
 id list_item
+id list_track
 id locale
 id ltr
 id m3_side_sheet
@@ -4098,6 +4102,7 @@ id pin
 id position
 id postLayout
 id pressed
+id progress_bar
 id progress_circular
 id progress_horizontal
 id radio
@@ -4204,6 +4209,7 @@ id textView2
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
+id text_time
 id textinput_counter
 id textinput_error
 id textinput_helper_text
