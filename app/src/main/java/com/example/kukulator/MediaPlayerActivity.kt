@@ -53,9 +53,8 @@ class MediaPlayerActivity : AppCompatActivity() {
         try {
             mediaPlayer.setDataSource("/storage/emulated/0/Music/Browser/KINO_-_Bratskaya_lyubov_2025_79921224.mp3")
             mediaPlayer.setOnPreparedListener {
-                // Теперь по нажатию кнопки start() будет работать
             }
-            mediaPlayer.prepareAsync() // вместо prepare()
+            mediaPlayer.prepareAsync()
         } catch (e: Exception) {
             e.printStackTrace()
         }
@@ -65,7 +64,7 @@ class MediaPlayerActivity : AppCompatActivity() {
     private fun playNext() {
             val musicPath = Environment.getExternalStorageDirectory().path + "/Music/Browser"
             val directory = File(musicPath)
-            val files = directory.listFiles()?.filter { it.name.endsWith(".mp3") } ?: return
+            val files = directory.listFiles().filter { it.name.endsWith(".mp3") } ?: return
 
             if (files.isEmpty()) return
 
@@ -82,14 +81,12 @@ class MediaPlayerActivity : AppCompatActivity() {
     private fun playPrevious() {
         val musicPath = Environment.getExternalStorageDirectory().path + "/Music/Browser"
         val directory = File(musicPath)
-        val files = directory.listFiles()?.filter { it.name.endsWith(".mp3") } ?: return
+        val files = directory.listFiles().filter { it.name.endsWith(".mp3") } ?: return
 
         if (files.isEmpty()) return
 
-        // Уменьшаем индекс на 1 (идет назад)
         currentTrackIndex = currentTrackIndex - 1
 
-        // Если ушли в минус - переходим к последнему треку
         if (currentTrackIndex < 0) {
             currentTrackIndex = files.size - 1
         }
