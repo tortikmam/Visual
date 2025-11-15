@@ -7,31 +7,40 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!--        app:layout_constraintBottom_toTopOf="@+id/button_media_player"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent" />-->
-
     <Button
         android:id="@+id/button_kukulator"
-        android:layout_width="306dp"
-        android:layout_height="318dp"
+        android:layout_width="222dp"
+        android:layout_height="202dp"
         android:text="KUKULATOR"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.067" />
+        app:layout_constraintVertical_bias="0.03" />
 
     <Button
         android:id="@+id/button_media_player"
-        android:layout_width="315dp"
-        android:layout_height="324dp"
+        android:layout_width="222dp"
+        android:layout_height="202dp"
         android:text="MediaPlayer"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_kukulator"
-        app:layout_constraintVertical_bias="0.596" />
+        app:layout_constraintVertical_bias="0.147" />
+
+    <Button
+        android:id="@+id/button_gps"
+        android:layout_width="222dp"
+        android:layout_height="202dp"
+        android:text="GPS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_media_player"
+        app:layout_constraintVertical_bias="0.412" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

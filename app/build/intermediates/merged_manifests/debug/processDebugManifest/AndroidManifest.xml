@@ -9,6 +9,9 @@
         android:targetSdkVersion="36" />
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <permission
         android:name="com.example.kukulator.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
@@ -30,6 +33,10 @@
         android:testOnly="true"
         android:theme="@style/Theme.Kukulator" >
         <activity
+            android:name="com.example.kukulator.GpsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Kukulator" />
+        <activity
             android:name="com.example.kukulator.MediaPlayerActivity"
             android:exported="false" />
         <activity
@@ -45,6 +52,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

@@ -37,5 +37,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(MedAct)
         })
 
+        var bGPS: Button = findViewById(R.id.button_gps)
+        bGPS.setOnClickListener({
+            val GpAct = Intent(this, GpsActivity::class.java)
+            startActivity(GpAct)
+        })
+
     }
 }

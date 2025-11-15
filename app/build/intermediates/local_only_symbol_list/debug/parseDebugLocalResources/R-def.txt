@@ -16,6 +16,7 @@ id button_equals
 id button_fast_forward
 id button_five
 id button_four
+id button_gps
 id button_kukulator
 id button_media_player
 id button_minus
@@ -33,15 +34,19 @@ id button_zero
 id list_track
 id main
 id nav_graph
+id nav_graph2
 id progress_bar
 id textView2
 id text_time
+id view_location
+layout activity_gps
 layout activity_kukulator
 layout activity_main
 layout activity_media_player
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_graph
+navigation nav_graph2
 string app_name
 string first_fragment_label
 string lorem_ipsum
