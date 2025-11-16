@@ -13,6 +13,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
+import java.io.File
 
 class GpsActivity : AppCompatActivity() {
 
@@ -44,13 +45,18 @@ class GpsActivity : AppCompatActivity() {
             ActivityCompat.checkSelfPermission(
                 this,
                 Manifest.permission.ACCESS_COARSE_LOCATION
+            ) != PackageManager.PERMISSION_GRANTED &&
+            ActivityCompat.checkSelfPermission(
+                this,
+                Manifest.permission.WRITE_EXTERNAL_STORAGE
             ) != PackageManager.PERMISSION_GRANTED
         ) {
             ActivityCompat.requestPermissions(
                 this,
                 arrayOf(
                     Manifest.permission.ACCESS_FINE_LOCATION,
-                    Manifest.permission.ACCESS_COARSE_LOCATION
+                    Manifest.permission.ACCESS_COARSE_LOCATION,
+                    Manifest.permission.WRITE_EXTERNAL_STORAGE
                 ),
                 100
             )
@@ -80,13 +86,30 @@ class GpsActivity : AppCompatActivity() {
 
         ViewLocal.text = "0"
 
-        if (checkPermissions()) {
+        if (checkAllPermissions()) {
             getCurrentLocation()
         }
 
     }
 
-    private fun checkPermissions(): Boolean {
+    private fun checkAllPermissions(): Boolean{
+        if (checkStoragePermissions() && checkLocationsPermissions()){
+            return true
+        } else {
+            return false
+        }
+    }
+
+    private fun checkStoragePermissions(): Boolean{
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
+            return true
+        } else {
+            return false
+        }
+
+    }
+
+    private fun checkLocationsPermissions(): Boolean {
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_GRANTED &&
             ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED)
         {
@@ -97,7 +120,7 @@ class GpsActivity : AppCompatActivity() {
     }
 
     private fun getCurrentLocation() {
-        if (checkPermissions()) {
+        if (checkAllPermissions()) {
             if (ActivityCompat.checkSelfPermission(
                     this,
                     Manifest.permission.ACCESS_FINE_LOCATION
@@ -116,6 +139,14 @@ class GpsActivity : AppCompatActivity() {
                     Toast.makeText(this, "Проблемы с сигналом", Toast.LENGTH_SHORT).show()
                 } else {
                     ViewLocal.text = "Широта: ${location.latitude}\nДолгота: ${location.longitude}"
+
+                    val folder = File(getExternalFilesDir(null), "jsonForAndroid")  // App-specific dir
+                    if (!folder.exists()) {
+                        folder.mkdirs()
+                    }
+                    val file = File(folder, "location.json")
+                    val jsonData = """{"latitude": ${location.latitude}, "longitude": ${location.longitude}}"""
+                    file.writeText(jsonData)
                 }
             }
         }
