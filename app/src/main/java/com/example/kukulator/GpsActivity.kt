@@ -138,14 +138,14 @@ class GpsActivity : AppCompatActivity() {
                 if (location == null) {
                     Toast.makeText(this, "Проблемы с сигналом", Toast.LENGTH_SHORT).show()
                 } else {
-                    ViewLocal.text = "Широта: ${location.latitude}\nДолгота: ${location.longitude}"
+                    ViewLocal.text = "Широта: ${location.latitude}\nДолгота: ${location.longitude}\nВремя: ${location.time}"
 
-                    val folder = File(getExternalFilesDir(null), "jsonForAndroid")  // App-specific dir
+                    val folder = File(getExternalFilesDir(null), "jsonForAndroid")
                     if (!folder.exists()) {
                         folder.mkdirs()
                     }
                     val file = File(folder, "location.json")
-                    val jsonData = """{"latitude": ${location.latitude}, "longitude": ${location.longitude}}"""
+                    val jsonData = """{"latitude": ${location.latitude}, "longitude": ${location.longitude}, "time": ${location.time}}"""
                     file.writeText(jsonData)
                 }
             }
