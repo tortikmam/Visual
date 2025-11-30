@@ -9,8 +9,8 @@
 
     <Button
         android:id="@+id/button_kukulator"
-        android:layout_width="222dp"
-        android:layout_height="202dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:text="KUKULATOR"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,26 +21,38 @@
 
     <Button
         android:id="@+id/button_media_player"
-        android:layout_width="222dp"
-        android:layout_height="202dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:text="MediaPlayer"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_kukulator"
-        app:layout_constraintVertical_bias="0.147" />
+        app:layout_constraintVertical_bias="0.058" />
 
     <Button
         android:id="@+id/button_gps"
-        android:layout_width="222dp"
-        android:layout_height="202dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:text="GPS"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_media_player"
-        app:layout_constraintVertical_bias="0.412" />
+        app:layout_constraintVertical_bias="0.12" />
+
+    <Button
+        android:id="@+id/button_net"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="Net"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.941" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

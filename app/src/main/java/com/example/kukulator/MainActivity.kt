@@ -43,5 +43,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(GpAct)
         })
 
+        var bNet: Button = findViewById(R.id.button_net)
+        bNet.setOnClickListener({
+            val NetAct = Intent(this, MobileNetActivity::class.java)
+            startActivity(NetAct)
+        })
+
     }
 }

@@ -21,6 +21,7 @@ id button_kukulator
 id button_media_player
 id button_minus
 id button_multiply
+id button_net
 id button_nine
 id button_one
 id button_pause_play
@@ -39,10 +40,12 @@ id progress_bar
 id textView2
 id text_time
 id view_location
+id view_net
 layout activity_gps
 layout activity_kukulator
 layout activity_main
 layout activity_media_player
+layout activity_mobile_net
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_graph

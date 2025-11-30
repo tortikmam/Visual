@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Visual\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from D:\Visual\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from D:\Visual\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from D:\Visual\app\src\main\AndroidManifest.xml:2:1-41:12
+ADDED from D:\Visual\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from D:\Visual\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from D:\Visual\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from D:\Visual\app\src\main\AndroidManifest.xml:2:1-46:12
 MERGED from [androidx.databinding:viewbinding:8.13.0] C:\Users\Vladimir\.gradle\caches\8.13\transforms\3079fd3c30cf5f23b2aabd66cc2b1c61\transformed\viewbinding-8.13.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-runtime-android:2.9.5] C:\Users\Vladimir\.gradle\caches\8.13\transforms\339f55331ba503bff7d66be4198584ca\transformed\navigation-runtime-release\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common-android:2.9.5] C:\Users\Vladimir\.gradle\caches\8.13\transforms\3ba6907001c4bb32ace92178decc45d1\transformed\navigation-common-release\AndroidManifest.xml:17:1-22:12
@@ -89,9 +89,13 @@ uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from D:\Visual\app\src\main\AndroidManifest.xml:8:5-81
 	android:name
 		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\Visual\app\src\main\AndroidManifest.xml:9:5-75
+	android:name
+		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:9:22-72
 application
-ADDED from D:\Visual\app\src\main\AndroidManifest.xml:10:5-39:19
-INJECTED from D:\Visual\app\src\main\AndroidManifest.xml:10:5-39:19
+ADDED from D:\Visual\app\src\main\AndroidManifest.xml:12:5-44:19
+INJECTED from D:\Visual\app\src\main\AndroidManifest.xml:12:5-44:19
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\Vladimir\.gradle\caches\8.13\transforms\4285780ae0acf1ae03dc213b7ed6a486\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\Vladimir\.gradle\caches\8.13\transforms\4285780ae0acf1ae03dc213b7ed6a486\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\Vladimir\.gradle\caches\8.13\transforms\0d450ee63d2336eabd1e324867435f66\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
@@ -123,59 +127,65 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Vladimir\.gradle\c
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.17.0] C:\Users\Vladimir\.gradle\caches\8.13\transforms\6e1832697acfb2fc8d095527f1a569e5\transformed\core-1.17.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:17:9-35
+		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:19:9-35
 	android:label
-		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:15:9-41
+		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:17:9-41
 	android:fullBackupContent
-		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:13:9-54
+		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:15:9-54
 	android:roundIcon
-		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:16:9-54
+		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:18:9-54
 	android:icon
-		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:14:9-43
+		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:16:9-43
 	android:allowBackup
-		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:13:9-35
 	android:theme
-		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:18:9-47
+		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:20:9-47
 	android:dataExtractionRules
-		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:12:9-65
+		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:14:9-65
+activity#com.example.kukulator.MobileNetActivity
+ADDED from D:\Visual\app\src\main\AndroidManifest.xml:21:9-23:40
+	android:exported
+		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:23:13-37
+	android:name
+		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:22:13-46
 activity#com.example.kukulator.GpsActivity
-ADDED from D:\Visual\app\src\main\AndroidManifest.xml:19:9-22:54
+ADDED from D:\Visual\app\src\main\AndroidManifest.xml:24:9-27:54
 	android:exported
-		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:21:13-37
+		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:26:13-37
 	android:theme
-		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:22:13-51
+		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:27:13-51
 	android:name
-		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:20:13-40
+		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:25:13-40
 activity#com.example.kukulator.MediaPlayerActivity
-ADDED from D:\Visual\app\src\main\AndroidManifest.xml:23:9-25:40
+ADDED from D:\Visual\app\src\main\AndroidManifest.xml:28:9-30:40
 	android:exported
-		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:25:13-37
+		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:24:13-48
+		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:29:13-48
 activity#com.example.kukulator.KukulatorActivity
-ADDED from D:\Visual\app\src\main\AndroidManifest.xml:26:9-29:54
+ADDED from D:\Visual\app\src\main\AndroidManifest.xml:31:9-34:54
 	android:exported
-		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:28:13-37
+		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:33:13-37
 	android:theme
-		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:29:13-51
+		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:34:13-51
 	android:name
-		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:27:13-46
+		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:32:13-46
 activity#com.example.kukulator.MainActivity
-ADDED from D:\Visual\app\src\main\AndroidManifest.xml:30:9-38:20
+ADDED from D:\Visual\app\src\main\AndroidManifest.xml:35:9-43:20
 	android:exported
-		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:32:13-36
+		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:37:13-36
 	android:name
-		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:31:13-41
+		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:36:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Visual\app\src\main\AndroidManifest.xml:33:13-37:29
+ADDED from D:\Visual\app\src\main\AndroidManifest.xml:38:13-42:29
 action#android.intent.action.MAIN
-ADDED from D:\Visual\app\src\main\AndroidManifest.xml:34:17-69
+ADDED from D:\Visual\app\src\main\AndroidManifest.xml:39:17-69
 	android:name
-		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:34:25-66
+		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:39:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Visual\app\src\main\AndroidManifest.xml:36:17-77
+ADDED from D:\Visual\app\src\main\AndroidManifest.xml:41:17-77
 	android:name
-		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:36:27-74
+		ADDED from D:\Visual\app\src\main\AndroidManifest.xml:41:27-74
 uses-sdk
 INJECTED from D:\Visual\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Visual\app\src\main\AndroidManifest.xml
