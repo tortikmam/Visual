@@ -9,3 +9,8 @@
     MediaPlayerActivity - мущыкальный плеер<br>
     MobileNetActivity - получает информацию о сети пользователя<br>
     SocketsActivity - передает сообщения с клиента на сервер<br>
+
+Если что ссылка на backend_visual не рабочая<br>
+Она появилась в следствие того, что я не понял задание<br>
+Вот ссылка на рабочий репозиторий с файлами сервера:<br>
+https://github.com/tortikmam/backend_visual
