@@ -1,7 +1,7 @@
-#Mon Nov 10 10:58:59 NOVT 2025
-base.0=D\:\\Visual\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
-base.1=D\:\\Visual\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
-base.2=D\:\\Visual\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\4\\classes.dex
+#Sun Feb 22 16:28:23 NOVT 2026
+base.0=/home/durkaguti/Рабочий стол/VisualLab/Visual/app/build/intermediates/dex/debugAndroidTest/mergeExtDexDebugAndroidTest/classes.dex
+base.1=/home/durkaguti/Рабочий стол/VisualLab/Visual/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex
+base.2=/home/durkaguti/Рабочий стол/VisualLab/Visual/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/4/classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=4/classes.dex

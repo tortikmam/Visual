@@ -51,4 +51,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation("org.zeromq:jeromq:0.5.4")
+    implementation("com.google.android.gms:play-services-location:21.0.1")
 }

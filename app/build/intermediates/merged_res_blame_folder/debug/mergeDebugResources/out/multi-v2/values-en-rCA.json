@@ -4,7 +4,7 @@
             "outputFile": "com.example.kukulator.app-mergeDebugResources-48:/values-en-rCA/values-en-rCA.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Vladimir\\.gradle\\caches\\8.13\\transforms\\4b744cd8e693fe67283a0d8cabbdc604\\transformed\\appcompat-1.7.1\\res\\values-en-rCA\\values-en-rCA.xml",
+                    "source": "/home/durkaguti/.gradle/caches/8.13/transforms/86f0e2cc18e641ddef926b598ed723a9/transformed/appcompat-1.7.1/res/values-en-rCA/values-en-rCA.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Vladimir\\.gradle\\caches\\8.13\\transforms\\6e1832697acfb2fc8d095527f1a569e5\\transformed\\core-1.17.0\\res\\values-en-rCA\\values-en-rCA.xml",
+                    "source": "/home/durkaguti/.gradle/caches/8.13/transforms/ab0290934261a2c9e89449efb5c5b265/transformed/core-1.17.0/res/values-en-rCA/values-en-rCA.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

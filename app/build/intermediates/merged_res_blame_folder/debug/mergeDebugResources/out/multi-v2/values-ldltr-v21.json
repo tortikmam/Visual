@@ -4,7 +4,7 @@
             "outputFile": "com.example.kukulator.app-mergeDebugResources-48:/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Vladimir\\.gradle\\caches\\8.13\\transforms\\4b744cd8e693fe67283a0d8cabbdc604\\transformed\\appcompat-1.7.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "source": "/home/durkaguti/.gradle/caches/8.13/transforms/86f0e2cc18e641ddef926b598ed723a9/transformed/appcompat-1.7.1/res/values-ldltr-v21/values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

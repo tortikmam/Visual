@@ -1,7 +1,7 @@
-com.example.kukulator.test.app-tracing-1.2.0-0 C:\Users\Vladimir\.gradle\caches\8.13\transforms\0109721b7e6d4126c72f20d36eda9282\transformed\tracing-1.2.0\res
-com.example.kukulator.test.app-core-1.7.0-1 C:\Users\Vladimir\.gradle\caches\8.13\transforms\9f7341786787a82f52e92d9955a95412\transformed\core-1.7.0\res
-com.example.kukulator.test.app-androidTest-2 D:\Visual\app\build\generated\res\resValues\androidTest\debug
-com.example.kukulator.test.app-updated_navigation_xml-3 D:\Visual\app\build\generated\updated_navigation_xml\debugAndroidTest
-com.example.kukulator.test.app-mergeDebugAndroidTestResources-4 D:\Visual\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
-com.example.kukulator.test.app-mergeDebugAndroidTestResources-5 D:\Visual\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
-com.example.kukulator.test.app-debugAndroidTest-6 D:\Visual\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
+com.example.kukulator.test.app-tracing-1.2.0-0 /home/durkaguti/.gradle/caches/8.13/transforms/0109721b7e6d4126c72f20d36eda9282/transformed/tracing-1.2.0/res
+com.example.kukulator.test.app-core-1.7.0-1 /home/durkaguti/.gradle/caches/8.13/transforms/9f7341786787a82f52e92d9955a95412/transformed/core-1.7.0/res
+com.example.kukulator.test.app-androidTest-2 /home/durkaguti/Рабочий стол/VisualLab/Visual/app/build/generated/res/resValues/androidTest/debug
+com.example.kukulator.test.app-updated_navigation_xml-3 /home/durkaguti/Рабочий стол/VisualLab/Visual/app/build/generated/updated_navigation_xml/debugAndroidTest
+com.example.kukulator.test.app-mergeDebugAndroidTestResources-4 /home/durkaguti/Рабочий стол/VisualLab/Visual/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.kukulator.test.app-mergeDebugAndroidTestResources-5 /home/durkaguti/Рабочий стол/VisualLab/Visual/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.kukulator.test.app-debugAndroidTest-6 /home/durkaguti/Рабочий стол/VisualLab/Visual/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

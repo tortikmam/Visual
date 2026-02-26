@@ -49,5 +49,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(NetAct)
         })
 
+        var bBGPS: Button = findViewById(R.id.button_BackGPS)
+        bBGPS.setOnClickListener({
+            val BGPSAct = Intent(this, GpsINbackend::class.java)
+            startActivity(BGPSAct)
+        })
+
     }
 }

@@ -9,6 +9,7 @@ id FirstFragment
 id SecondFragment
 id action_FirstFragment_to_SecondFragment
 id action_SecondFragment_to_FirstFragment
+id button_BackGPS
 id button_clear
 id button_divide
 id button_eight
@@ -42,10 +43,12 @@ id text_time
 id view_location
 id view_net
 layout activity_gps
+layout activity_gps_inbackend
 layout activity_kukulator
 layout activity_main
 layout activity_media_player
 layout activity_mobile_net
+layout activity_sockets
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_graph

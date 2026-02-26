@@ -4,7 +4,7 @@
             "outputFile": "com.example.kukulator.app-mergeDebugResources-48:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Vladimir\\.gradle\\caches\\8.13\\transforms\\4285780ae0acf1ae03dc213b7ed6a486\\transformed\\material-1.13.0\\res\\values-v24\\values-v24.xml",
+                    "source": "/home/durkaguti/.gradle/caches/8.13/transforms/fa24cd8eaad55eaaa42a398e76159d08/transformed/material-1.13.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,9,12,15",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Vladimir\\.gradle\\caches\\8.13\\transforms\\4b744cd8e693fe67283a0d8cabbdc604\\transformed\\appcompat-1.7.1\\res\\values-v24\\values-v24.xml",
+                    "source": "/home/durkaguti/.gradle/caches/8.13/transforms/86f0e2cc18e641ddef926b598ed723a9/transformed/appcompat-1.7.1/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

@@ -4,7 +4,7 @@
             "outputFile": "com.example.kukulator.app-mergeDebugResources-48:/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Vladimir\\.gradle\\caches\\8.13\\transforms\\4b744cd8e693fe67283a0d8cabbdc604\\transformed\\appcompat-1.7.1\\res\\values-land\\values-land.xml",
+                    "source": "/home/durkaguti/.gradle/caches/8.13/transforms/86f0e2cc18e641ddef926b598ed723a9/transformed/appcompat-1.7.1/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -14,24 +14,7 @@
                     }
                 },
                 {
-                    "source": "D:\\Visual\\app\\src\\main\\res\\values-land\\dimens.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "6",
-                        "startOffsets": "18",
-                        "endColumns": "43",
-                        "endOffsets": "55"
-                    },
-                    "to": {
-                        "startLines": "5",
-                        "startColumns": "4",
-                        "startOffsets": "264",
-                        "endColumns": "41",
-                        "endOffsets": "301"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Vladimir\\.gradle\\caches\\8.13\\transforms\\4285780ae0acf1ae03dc213b7ed6a486\\transformed\\material-1.13.0\\res\\values-land\\values-land.xml",
+                    "source": "/home/durkaguti/.gradle/caches/8.13/transforms/fa24cd8eaad55eaaa42a398e76159d08/transformed/material-1.13.0/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,22,31,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -47,6 +30,23 @@
                         "endLines": "6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,25,34,39,42",
                         "endColumns": "74,73,64,66,69,71,68,68,81,89,75,67,66,77,64,66,10,10,10,10",
                         "endOffsets": "376,450,515,582,652,724,793,862,944,1034,1110,1178,1245,1323,1388,1455,1627,2196,2465,2693"
+                    }
+                },
+                {
+                    "source": "/home/durkaguti/Рабочий стол/VisualLab/Visual/app/src/main/res/values-land/dimens.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "6",
+                        "startOffsets": "18",
+                        "endColumns": "43",
+                        "endOffsets": "55"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "264",
+                        "endColumns": "41",
+                        "endOffsets": "301"
                     }
                 }
             ]
