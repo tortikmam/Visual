@@ -9,3 +9,4 @@
     MediaPlayerActivity - мущыкальный плеер<br>
     MobileNetActivity - получает информацию о сети пользователя<br>
     SocketsActivity - передает сообщения с клиента на сервер<br>
+    GpsINbackend - передает координаты на сервер
