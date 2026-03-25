@@ -1,4 +1,4 @@
-#Wed Feb 25 10:03:26 NOVT 2026
+#Tue Mar 24 22:48:15 NOVT 2026
 base.0=/home/durkaguti/Рабочий стол/VisualLab/Visual/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 base.1=/home/durkaguti/Рабочий стол/VisualLab/Visual/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
 base.2=/home/durkaguti/Рабочий стол/VisualLab/Visual/app/build/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex
